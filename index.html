@@ -2,17 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Practicum's amazing Coffee Shop" />
-    <meta name="author" content="Alejandro Santana" />
     <meta
-      name="keywords"
-      conent="Practicum, Coffee Shop, Practicums Coffe Shop"
+      name="description"
+      content="Practicum's Amazing Coffee Shop!, Coffee Shop"
     />
-    <link rel="stylesheet" href="normalize.css" />
-    <link rel="stylesheet" href="index.css" />
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <meta name="author" content="Alejandro Santana" />
+    <meta name="keywords" content="Coffee, Coffe Shop, Practicum," />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,41 +22,14 @@
   </head>
   <body>
     <div class="page">
-      <header class="header">
-        <nav class="nav">
-          <img class="logo" />
-          <ul class="nav__links">
-            <li>
-              <a href="#recipes" class="nav__link">Recipes</a>
-            </li>
-            <li>
-              <a href="#book-a-table" class="nav__link">Book a Table</a>
-            </li>
-            <li>
-              <a href="#menu" class="nav__link">Menu</a>
-            </li>
-            <li>
-              <a href="#contacts" class="nav__link">Contacts</a>
-            </li>
-          </ul>
-        </nav>
-        <h1 class="header__title">Specialty Coffee in the Practicum Library</h1>
-        <p class="header__description">
-          Welcome to our Study Zone! We've got the coffee to energize you and
-          the cozy vibes to help you get creative.
-        </p>
-        <img class="header__image" />
-      </header>
-
-      <main class="content">
-        <section id="recipes" class="recipes"></section>
-
-        <section id="book-a-table" class="reservation"></section>
-
-        <section id="menu" class="menu"></section>
+      <header class="header"></header>
+      <main class="main">
+        <section class="recipes"></section>
+        <section class="reservation"></section>
+        <section class="menu"></section>
       </main>
       <section class="about"></section>
-      <footer id="contacts" class="footer"></footer>
+      <footer class="footer"></footer>
     </div>
   </body>
 </html>
